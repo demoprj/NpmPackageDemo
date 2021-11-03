@@ -1,0 +1,29 @@
+{
+  "name": "demoprj-npmpackagedemo",
+  "version": "0.0.1",
+  "description": "A demo for demoprj/npmpackage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "demoprj-npmpackage": "file:../NpmPackage"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demoprj/NpmPackageDemo.git"
+  },
+  "keywords": [
+    "demo",
+    "node",
+    "npm",
+    "package"
+  ],
+  "author": "tokoyi <tokoyi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demoprj/NpmPackageDemo/issues"
+  },
+  "homepage": "https://github.com/demoprj/NpmPackageDemo#readme"
+}
